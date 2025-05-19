@@ -1,7 +1,7 @@
 ---
-![Images-of-grape-leaf-disease-8](https://github.com/user-attachments/assets/a62a4678-6f8e-4459-9c24-c7082ef100e0)
-
 # PERNOSPHERE
+
+![Images-of-grape-leaf-disease-8](https://github.com/user-attachments/assets/a62a4678-6f8e-4459-9c24-c7082ef100e0)
 
 ## Vinegrape Leaf Disease Classifier
 
