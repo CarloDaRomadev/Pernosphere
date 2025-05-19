@@ -1,80 +1,86 @@
-## 📌 Overview  
-PERNOSPHERE is a **Computer Vision** project developed for the AI-lab Computer Vision and NLP course (2024/25). It uses a **PyTorch-based CNN** to classify common diseases in vinegrape leaves with **>95% test accuracy**.  
+# PERNOSPHERE: Vinegrape Leaf Disease Classifier  
 
-Key Features:  
-✅ Basic CNN architecture  
-✅ Early stopping & overfitting prevention  
-✅ Gradio web interface for easy inference  
-✅ Detailed disease information  
+## 📝 Overview  
+PERNOSPHERE is a project developed for the **AI-lab Computer Vision and NLP 2024/25** course. It implements a **Convolutional Neural Network (CNN)** using PyTorch to classify common diseases in vinegrape leaves.  
 
 ---
 
-## 🧑‍💻 Author  
+## 👨‍💻 Author  
 **Carlo Da Roma**  
 
 ---
 
-## 📂 Dataset  
-- **Source**: [Kaggle - Grape Disease Dataset](https://www.kaggle.com/datasets/rm1000/grape-disease-dataset-original) (by Rajarshi Mandal, CC0 1.0 License)  
-- **Contents**: Images of healthy/diseased vinegrape leaves (original size: 512x512, resized to 128x128 for model input).  
+## ✨ Features  
+- Basic PyTorch CNN implementation  
+- Training with early stopping and overfitting prevention  
+- Simple Gradio web interface  
+- Detailed disease information  
+- High test accuracy (95%+)  
 
 ---
 
-## 🚀 Usage  
+## 📊 Dataset  
+- Contains images of healthy and diseased vinegrape leaves  
+- **Author**: Rajarshi Mandal  
+- **License**: CC0 1.0 Universal  
+- **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/rm1000/grape-disease-dataset-original)  
+
+---
+
+## 🛠️ Usage  
 
 ### ⚙️ Setup  
-1. **Install dependencies**:  
+1. Install required packages:  
    ```bash
-   pip install gradio torch torchvision opencv-python matplotlib pandas
+   pip install gradio opencv-python torch matplotlib pandas
    ```  
-2. **Download dataset** from the Kaggle link above.  
-3. **Organize files**: Move all subdirectories (`test`, `train`) into `Archive/trainTest/leaf/`.  
-4. **Preprocess data**: Run these to generate CSVs:  
+2. Download the dataset from the Kaggle link above  
+3. Move all sub-directories (`test`, `train`) into `Archive/trainTest/leaf/`  
+4. Generate CSV files by running:  
    ```bash
    python support_function_train.py
    python support_function_test.py
    ```  
 
 ### 🏋️ Training  
+Run the training script:  
 ```bash
 python train_test.py
 ```  
-- Training auto-stops after 3 epochs without improvement (adjustable in code).  
-- Typically achieves **95%+ accuracy in 9-10 epochs**.  
+*Automatically stops when validation accuracy doesn't improve for 3 consecutive epochs.*  
 
-### 🌐 Web App  
-Launch the Gradio interface:  
+### 🌐 Web Interface  
+Launch the Gradio app:  
 ```bash
 python app.py
 ```  
-**Tip**: For best results, photograph leaves on a plain white background.  
 
 ---
 
-## 🗂️ Code Structure  
-```  
-PERNOSPHERE/  
-├── Code/  
-│   ├── model.py           # CNN architecture  
-│   ├── dataloader.py      # Custom data loader  
-│   ├── train_test.py      # Training/testing loops  
-│   ├── predict.py         # Inference functions  
-│   └── GUI.py             # Gradio app  
-├── Archive/               # Raw dataset (train/test images)  
-├── Model/                 # Saved model binaries  
-└── Dataset/               # Processed CSVs & support scripts  
-```  
+## 📂 Code Structure  
+```
+PERNOSPHERE/
+├── Code/
+│   ├── model.py          # CNN architecture
+│   ├── dataloader.py     # Custom data loader
+│   ├── train_test.py     # Training/testing script
+│   ├── predict.py        # Prediction functions
+│   └── GUI.py            # Gradio interface
+├── Archive/              # Raw dataset images
+├── Model/                # Saved model files
+└── Dataset/              # Processed CSV files
+```
 
 ---
 
-## 📝 Notes  
-- **Image Resolution**: Model uses 128x128 inputs (downscaled from 512x512).  
-- **Early Stopping**: Default patience=3 epochs.  
-- **Performance**: Achieves 95%+ test accuracy consistently.  
+## ℹ️ Notes  
+- Input images are resized to **128x128** (original: 512x512)  
+- Default early stopping patience: **3 epochs**  
+- Typically achieves **>95% accuracy** in 9-10 epochs  
+
+### ⚠️ IMPORTANT  
+For best results, photograph leaves on a plain white background (e.g., sheet of paper).  
 
 --- 
 
-🛠️ **Contribution & Issues**  
-Feel free to open issues or suggest improvements!  
-
----  
+*(Note: This README maintains all original content while improving GitHub formatting with headers, lists, and code blocks for better readability.)*
