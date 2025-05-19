@@ -97,7 +97,7 @@ with gr.Blocks() as ui:
             image = gr.Image(type="pil", height=600, width=600)
             output = gr.Textbox(label="Prediction", interactive=False)
             btn = gr.Button("Classify")
-            btn.click(fn=predicter, inputs=image, outputs=output)
+            btn.click(fn=predictor, inputs=image, outputs=output)
 
         with gr.Tab("Info-point 📚"):
             gr.Markdown("### Select a grape disease to learn about it:")
