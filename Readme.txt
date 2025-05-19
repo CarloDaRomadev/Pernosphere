@@ -1,5 +1,3 @@
----
-
 # 📘 Progetto di Prova
 
 Questo è un semplice progetto di esempio per mostrare come scrivere un README su GitHub.
@@ -42,5 +40,3 @@ Contatti: [tuo.email@example.com](mailto:tuo.email@example.com)
 ## 📃 Licenza
 
 Questo progetto è distribuito con licenza MIT. Vedi il file [LICENSE](LICENSE) per maggiori dettagli.
-
----
