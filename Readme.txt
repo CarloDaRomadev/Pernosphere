@@ -1,42 +1,18 @@
-# 📘 Progetto di Prova
+# Algebra
 
-Questo è un semplice progetto di esempio per mostrare come scrivere un README su GitHub.
+## 👋 Introduzione al forum
 
-## 🔧 Tecnologie utilizzate
+ℹ️ Lo scopo di questo repository GitHub è lo scambio e il confronto di Soluzioni ad Esercizi di Algebra assegnati, a lezione e nei testi d'esame, dai professori dell'insegnamento presso il Corso di Laurea Triennale in Informatica di Sapienza Università di Roma
 
-* Python 3.10
-* Git
-* [Visual Studio Code](https://code.visualstudio.com/)
+💬 Nel forum realizzato attraverso questo repository potrai dunque trovare (e possibilmente confermare) soluzioni proposte da altri studenti o anche condividere e ricevere un feedback in merito alle tue!
 
-## 🚀 Come iniziare
+## 🚀 Inizia subito
 
-1. Clona il repository:
+Scegli un Canale di Insegnamento per iniziare subito ad aggiungere o ad esplorare Esercizi e Soluzioni
+- **Proff.** [Gabriele **Viaggi** e Giacomo **Cherubini** (**A-L**)](viaggi/README.md#aa-202425-viaggi---cherubini-al)
+- **Prof.** [Federico **Pellarin** (**M-Z**)](pellarin/README.md#aa-202425-pellarin-mz)
+- **Tutor** [Elisa **Scandiuzzi**](scandiuzzi/README.md#aa-202425-scandiuzzi-tutor)
 
-   ```bash
-   git clone https://github.com/tuo-username/nome-repository.git
-   ```
-2. Entra nella cartella del progetto:
-
-   ```bash
-   cd nome-repository
-   ```
-3. Esegui lo script principale:
-
-   ```bash
-   python main.py
-   ```
-
-## 📄 Funzionalità
-
-* Stampa un messaggio di benvenuto
-* Mostra come strutturare un progetto
-* Esempio base per iniziare con GitHub
-
-## 🧑‍💻 Autore
-
-Realizzato da **Il Tuo Nome**
-Contatti: [tuo.email@example.com](mailto:tuo.email@example.com)
-
-## 📃 Licenza
-
-Questo progetto è distribuito con licenza MIT. Vedi il file [LICENSE](LICENSE) per maggiori dettagli.
+Di seguito anche alcuni professori di Anni Accademici precedenti
+- [A.A. 2022/23] **Prof.** Ruggero [**Bandiera (A/L)**](bandiera/README.md#aa-202223-bandiera-al)
+- [A.A. 2022/23] **Prof.** Paolo [**Papi (M/Z)**](papi/README.md#aa-202223-papi-mz)
