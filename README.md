@@ -1,6 +1,7 @@
 # PERNOSPHERE
 
-![Uploading ChatGPT Image 19 mag 2025, 17_47_05.png…]()
+![Logo](https://github.com/user-attachments/assets/bd6cbc46-9358-4b19-8eb1-8e291d3891e3)
+
 
 ## Vinegrape Leaf Disease Classifier
 
