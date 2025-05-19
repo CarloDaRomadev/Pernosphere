@@ -66,7 +66,7 @@ def predicter(image: Image.Image):
         conf, pred = torch.max(probs, dim=1)
         confidence = conf.item()
         
-        if confidence > 0.91:
+        if confidence > 0.50:
             predicted_class = labels[pred.item()]
             return f"{predicted_class} ({confidence * 100:.2f}%)"
         else:
