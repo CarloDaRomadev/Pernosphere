@@ -56,7 +56,7 @@ tfm = transforms.Compose([
 
 labels = ['Black Rot', 'ESCA', 'Healthy', 'Leaf Blight']
 
-def predicter(image: Image.Image):
+def predictor(image: Image.Image):
     img_t = tfm(image).unsqueeze(0).to(dev)
 
     with torch.no_grad():
