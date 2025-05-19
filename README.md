@@ -73,7 +73,7 @@ python app.py
   * `model.py` – CNN definition
   * `dataloader.py` – Custom dataloader
   * `train_test.py` – Training and testing loop
-  * `predict.py` – Predicter function
+  * `predict.py` – Predictor function
   * `GUI.py` – Gradio web app
 
 * In the directory `Archive` there are the images of the dataset
