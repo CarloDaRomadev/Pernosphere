@@ -89,7 +89,7 @@ python app.py
 * Early stopping patience is set to 3 epochs by default
 * Typically, training for 9 to 10 epochs is enough to reach a test accuracy of at least 95%
 
-###IMPORTANT!
+### IMPORTANT!
 
 * To achieve the best results, take the photo of the leaf on a sheet of paper.
 
