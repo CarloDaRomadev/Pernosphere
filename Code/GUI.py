@@ -4,7 +4,7 @@ from PIL import Image
 from torchvision import transforms
 from model import OurCNN  
 import numpy as np
-from predict import predicter
+from predict import predictor
 
 dinfo = {
     "Black Rot": {
