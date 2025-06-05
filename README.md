@@ -1,3 +1,9 @@
+[![AI](https://img.shields.io/badge/topic-AI-brightgreen)]()
+[![Python](https://img.shields.io/badge/language-Python-blue?logo=python)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/framework-PyTorch-EE4C2C?logo=pytorch)](https://pytorch.org/)
+[![Anaconda](https://img.shields.io/badge/distribution-Anaconda-44A833?logo=anaconda)](https://www.anaconda.com/)
+[![CNN](https://img.shields.io/badge/model-CNN-orange)]()
+
 # PERNOSPHERE
 
 ![Logo](https://github.com/user-attachments/assets/bd6cbc46-9358-4b19-8eb1-8e291d3891e3)
