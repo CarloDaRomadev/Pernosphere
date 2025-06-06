@@ -102,3 +102,5 @@ python app.py
 * To achieve the best results, take the photo of the leaf on a sheet of paper.
 
 ---
+
+<sub><i>last update 06/06/2025</i></sub>
